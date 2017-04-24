@@ -48,4 +48,4 @@ The future goals for this project are:
  <img src="calculator_classdiagram.png"/>
 
 ## GUI Hierarchy
- <img src="hisav_yantra_gui"/>
+ <img src="hisav_yantra_gui.png"/>
