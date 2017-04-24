@@ -2,7 +2,7 @@ Anurag’s
 हिसाब यन्त्र
 
 
-# 1.Introduction
+# Introduction
 
 ## Overview 
 The purpose of this report to give detail on development process and details of product (हिसाब यन्त्र) developed in college project in Java. 
