@@ -2,25 +2,19 @@ Anurag’s
 हिसाब यन्त्र
 
 
-# Introduction
-
-## Overview 
-The purpose of this report to give detail on development process and details of product (हिसाब यन्त्र) developed in college project in Java. 
+# Introduction 
 
 हिसाब यन्त्र is a desktop application which is implemented in Java Platform. It ,a calculator with basic functionalities, is developed using Java Swing graphical user interface (GUI) toolkit. It supports four basic operations addition, subtraction multiplication, and division.  
 
-## Objective
-The final goal of project was to
-1. Develop a user friendly calculator  that can do basic arithmetic calculations
-
-## Methodology
-The methodology used develop the application was
-1.  Water-Fall Model
 
 # Product Details
 ## Dependencies
 हिसाब यन्त्र is a JAVA application so it requires followings to run properly
 1.  a JAVA runtime environment installed on your system 
+
+## Installation
+  You can clone the project and compile yourself.<br/>
+  If you prefer a jar file then click <a href="https://github.com/anurag1234565/Calculator/raw/master/hisab_yantra.jar">Download</a>.
 
 ## User Interface
 हिसाब यन्त्र is very user friendly and intuitive and uses a GUI interface implemented in JAVA to communicate with user.<br/>
@@ -29,12 +23,18 @@ Fig. हिसाब यन्त्र
 
 ## Features
 The features of  हिसाब यन्त्र are:
-1. Two way input: You can input from both buttons on the screen as well as from your keyboard.
-2. Operations: You can do addition, subtraction, multiplication, division, power and precentage.
-3. Shortcuts: ESC clears the input field and RETURN evaluates the expression in the field.
-4. Auto-remove invalid characters: It automatically removes invalid characters such as alphabets, other special symbols etc.  
-4. Opens Under Mouse Pointer: The window opens where the pointer of your mouse lies on the screen.
-6. Pop-Up Message: If the entered expression is wrong then a message pop-ups saying your expression is wrong. 
+1. Two way input:
+      You can input from both buttons on the screen as well as from your keyboard.
+2. Operations: 
+      You can do addition, subtraction, multiplication, division, power and precentage.
+3. Shortcuts:
+      ESC clears the input field and RETURN evaluates the expression in the field.
+4. Auto-remove invalid characters:
+      It automatically removes invalid characters such as alphabets, other special symbols etc.  
+4. Opens Under Mouse Pointer:
+      The window opens where the pointer of your mouse lies on the screen.
+6. Pop-Up Message:
+      If the entered expression is wrong then a message pop-ups saying your expression is wrong. 
 
 ## Future goals
 The future goals for this project are:
