@@ -37,13 +37,13 @@ The methodology used develop the application was
   Water-Fall Model
 
 # Product Details
-##Dependencies
+## Dependencies
 हिसाब यन्त्र is a JAVA application so it requires followings to run properly
   a JAVA runtime environment installed on your system 
 
 ## User Interface
 हिसाब यन्त्र is very user friendly and intuitive and uses a GUI interface implemented in JAVA to communicate with user.
-  <img.src = "">
+  <img src=" "/>
 Fig. हिसाब यन्त्र
 
 ## Features
@@ -61,10 +61,10 @@ Bracket completion
 Enable use of trigonometric ratios
 
 
-#Code Description
+# Code Description
 
-Class Diagram
+## Class Diagram
+ <img src=""/>
 
-
-GUI Hierarchy
-
+## GUI Hierarchy
+<ing src=""/>
