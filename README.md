@@ -23,8 +23,8 @@ The methodology used develop the application was
 1.  a JAVA runtime environment installed on your system 
 
 ## User Interface
-हिसाब यन्त्र is very user friendly and intuitive and uses a GUI interface implemented in JAVA to communicate with user.
-  <img src=" "/>
+हिसाब यन्त्र is very user friendly and intuitive and uses a GUI interface implemented in JAVA to communicate with user.<br/>
+  <img src="firsr_look.png"/><br/>
 Fig. हिसाब यन्त्र
 
 ## Features
@@ -45,7 +45,7 @@ The future goals for this project are:
 # Code Description
 
 ## Class Diagram
- <img src=""/>
+ <img src="calculator_classdiagram.png"/>
 
 ## GUI Hierarchy
-<ing src=""/>
+ <img src="hisav_yantra_gui"/>
