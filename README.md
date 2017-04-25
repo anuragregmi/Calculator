@@ -51,5 +51,11 @@ The future goals for this project are:
 ### GUI Hierarchy
  <img src="hisab_yantra_gui.png"/>
  
- View <a href="https://anurag1234565.github.io/Calculator/doc/">Javadoc</a>
+ For further documentation view <a href="https://anurag1234565.github.io/Calculator/doc/">Javadoc</a>.
+ 
+### Usage
+You can create a calculator by making the object of Calculator
+```java
+  Calculator calc = new  Calculator();
+```
  
