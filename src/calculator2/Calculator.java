@@ -27,11 +27,11 @@ import calculator2.NumPad;
  */
 
 public class Calculator {
-	private JFrame frame;
-	private JTextField input;
-	private NumPad numpad;
-	JPanel foot_panel,top_panel;
-	private static JLabel footer = new JLabel("LICESNCED UNDER GPL3 | Developed By Anurag Regmi");
+	protected JFrame frame;  // main frame
+	protected JTextField input;  // input field
+	protected NumPad numpad;  // numbers pad
+	protected JPanel foot_panel,top_panel;  // top and footer panels
+	protected  JLabel footer;  // footer for the app 
 	
 	/**
 	 * Creates a frame for calculator, adds its components and displays it
@@ -41,6 +41,7 @@ public class Calculator {
 		frame = new JFrame("हिसाब यन्त्र");
 		input = new JTextField();
 		numpad = new NumPad(input);
+		footer = new JLabel();
 		
 		input.setFont(new Font("Serif", Font.BOLD, 30));
 		input.setBorder(new CompoundBorder(new LineBorder(Color.BLACK),new EmptyBorder(10,5,10,5)));
@@ -95,25 +96,51 @@ public class Calculator {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);  // enable exit on close button
 		frame.setSize(400, 500);  // setting frame size
 		frame.setLayout(new BorderLayout());  // setting layout for frame
+		frame.setResizable(false);  // disable resize option
+		frame.setLocation(MouseInfo.getPointerInfo().getLocation().x,MouseInfo.getPointerInfo().getLocation().y);  // opens window the mouse is
+		
 		
 		top_panel = new JPanel();
 		top_panel.setLayout(new GridLayout(1, 1));
-		top_panel.add(input);
 		top_panel.setBorder(new EmptyBorder(0, 5, 5, 5));
 		
 		
 		foot_panel = new JPanel();
 		foot_panel.setBackground(SystemColor.control);
-		foot_panel.add(footer);
 		
+		 	}
+	
+	
+	/**
+	 * Packs the  elements to respective panel and adds panel to frame.
+	 */
+	public void pack(){
+		top_panel.add(input);
+		foot_panel.add(footer);
 		frame.add(top_panel, BorderLayout.NORTH);  // placing top_panel text field to the top
 		frame.add(numpad, BorderLayout.CENTER);  // placing numpad to center
 		frame.add(foot_panel, BorderLayout.PAGE_END);
-		frame.setResizable(false);  // disable resize option
-		frame.setLocation(MouseInfo.getPointerInfo().getLocation().x,MouseInfo.getPointerInfo().getLocation().y);  // opens window the mouse is
 		
-		frame.setVisible(true);  // showing the frame
 	}
+	
+	/**
+	 * Sets footer text
+	 * 
+	 * @param text (String) footer text
+	 */
+	public void setFooterText(String text){
+		footer.setText(text);
+	}
+	
+	
+	
+	/**
+	 * Displays the frame
+	 */
+	public void show(){
+		frame.setVisible(true); // showing the frame
+	}
+	
 	
 	/**
 	 * 
@@ -121,7 +148,7 @@ public class Calculator {
 	 * 
 	 * @param c (char) character sent from KeyPressed event 
 	 */
-	private void filterContent(char c){
+	public void filterContent(char c){
 			if((c>=58 && c<=93)||
 				(c>=95 && c <=126) ||
 				(c == 44) || 
@@ -133,11 +160,10 @@ public class Calculator {
 	}
 	
 	
-	
-	
-	
-	
 	public static void main(String[] args){
-		new Calculator();
+		Calculator c = new Calculator();
+		c.setFooterText("LICENSED UNDER GPL3 | Developed By Anurag Regmi");
+		c.pack();
+		c.show();
 	}
 }

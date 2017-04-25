@@ -28,8 +28,8 @@ import javax.swing.text.BadLocationException;
 
 public class NumPad extends JPanel{
 
-	private JTextField input;
-	private JButton one,two,three,four,five,
+	protected JTextField input;
+	protected JButton one,two,three,four,five,
 			six,seven,eight,nine,zero,
 			dot,equals,
 			plus,minus,
@@ -157,7 +157,12 @@ public class NumPad extends JPanel{
 		add(right, BorderLayout.EAST);
 	}
 	
-	private void addHandlers(){
+	
+	
+	/**
+	 * adds action listeners and handles the events to the buttons
+	 */
+	protected void addHandlers(){
 		
 		// numbers 
 		
@@ -371,7 +376,7 @@ public class NumPad extends JPanel{
 	 * 
 	 * @param ch (String) character to be inserted in input box
 	 */
-	private void input_charter(String ch){
+	public void input_charter(String ch){
 		input.setText(input.getText()+ch);
 		input.requestFocus();
 	}
