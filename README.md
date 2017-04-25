@@ -49,3 +49,6 @@ The future goals for this project are:
 
 ## GUI Hierarchy
  <img src="hisab_yantra_gui.png"/>
+ 
+ View <a href="doc/">Javadoc</a>
+ 
