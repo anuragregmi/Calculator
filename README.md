@@ -1,27 +1,28 @@
+# Calculator ( हिसाब यन्त्र )
 Anurag’s
 हिसाब यन्त्र
 
 
-# Introduction 
+## Introduction 
 
 हिसाब यन्त्र is a desktop application which is implemented in Java Platform. It ,a calculator with basic functionalities, is developed using Java Swing graphical user interface (GUI) toolkit. It supports four basic operations addition, subtraction multiplication, and division.  
 
 
-# Product Details
-## Dependencies
+## Product Details
+### Dependencies
 हिसाब यन्त्र is a JAVA application so it requires followings to run properly
 1.  a JAVA runtime environment installed on your system 
 
-## Installation
+### Installation
   You can clone the project and compile yourself.<br/>
   If you prefer a jar file then click <a href="https://github.com/anurag1234565/Calculator/raw/master/hisab_yantra.jar">Download</a>.
 
-## User Interface
+### User Interface
 हिसाब यन्त्र is very user friendly and intuitive and uses a GUI interface implemented in JAVA to communicate with user.<br/>
   <img src="firsr_look.png"/><br/>
 Fig. हिसाब यन्त्र
 
-## Features
+### Features
 The features of  हिसाब यन्त्र are:
 1. Two way input:
       You can input from both buttons on the screen as well as from your keyboard.
@@ -36,16 +37,25 @@ The features of  हिसाब यन्त्र are:
 6. Pop-Up Message:
       If the entered expression is wrong then a message pop-ups saying your expression is wrong. 
 
-## Future goals
+### Future goals
 The future goals for this project are:
 1. Bracket completion
 2. Enable use of trigonometric ratios
 
 
-# Code Description
+## Code Description
 
-## Class Diagram
+### Class Diagram
  <img src="calculator_classdiagram.png"/>
 
-## GUI Hierarchy
+### GUI Hierarchy
  <img src="hisab_yantra_gui.png"/>
+ 
+ For further documentation view <a href="https://anurag1234565.github.io/Calculator/doc/">Javadoc</a>.
+ 
+### Usage
+You can create a calculator by making the object of Calculator
+```java
+  Calculator calc = new  Calculator();
+```
+ 
