@@ -19,7 +19,7 @@ Anurag’s
 
 ### User Interface
 हिसाब यन्त्र is very user friendly and intuitive and uses a GUI interface implemented in JAVA to communicate with user.<br/>
-  <img src="firsr_look.png"/><br/>
+  ![A look at हिसाब यन्त्र](firsr_look.png")
 Fig. हिसाब यन्त्र
 
 ### Features
@@ -46,10 +46,10 @@ The future goals for this project are:
 ## Code Description
 
 ### Class Diagram
- <img src="calculator_classdiagram.png"/>
+ ![Class Diagram](calculator_classdiagram.png)
 
 ### GUI Hierarchy
- <img src="hisab_yantra_gui.png"/>
+ ![GUI Hierarchy](hisab_yantra_gui.png)
  
  For further documentation view <a href="https://anurag1234565.github.io/Calculator/doc/">Javadoc</a>.
  
