@@ -56,6 +56,16 @@ The future goals for this project are:
 ### Usage
 You can create a calculator by making the object of Calculator
 ```java
-  Calculator calc = new  Calculator();
+  Calculator calc = new  Calculator();  // initializes calculator
+```
+It initializes the calculator and its components.
+
+Now to pack those components call ```java pack() ```
+```java
+  calc.pack();  // packs components to the frame
+```
+Then to make calculator visible call ```java show() ```
+```java
+  calc.show();  // display the calculator
 ```
  
