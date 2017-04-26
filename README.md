@@ -15,7 +15,7 @@ Anurag’s
 
 ### Installation
   You can clone the project and compile yourself.<br/>
-  If you prefer a jar file then click <a href="https://github.com/anurag1234565/Calculator/raw/master/hisab_yantra.jar">Download</a>.
+  If you prefer a jar file then click [_Download_](https://github.com/anurag1234565/Calculator/raw/master/hisab_yantra.jar).
 
 ### User Interface
   हिसाब यन्त्र is very user friendly and intuitive and uses a GUI interface implemented in JAVA to communicate with user.<br/>
@@ -39,8 +39,8 @@ The features of  हिसाब यन्त्र are:
 
 ### Future goals
 The future goals for this project are:
-1. Bracket completion
-2. Enable use of trigonometric ratios
+- [] Bracket completion
+- [] Enable use of trigonometric ratios
 
 
 ## Code Description
@@ -51,7 +51,7 @@ The future goals for this project are:
 ### GUI Hierarchy
  ![GUI Hierarchy](hisab_yantra_gui.png)
  
- For further documentation view <a href="https://anurag1234565.github.io/Calculator/doc/">Javadoc</a>.
+ For further documentation view [Javadoc](https://anurag1234565.github.io/Calculator/doc/).
  
 ### Usage
 ##### Create and Display 
