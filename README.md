@@ -41,8 +41,8 @@ The features of  हिसाब यन्त्र are:
 
 ### Future goals
 The future goals for this project are:
-- [] Bracket completion
-- [] Enable use of trigonometric ratios
+- [ ] Bracket completion
+- [ ] Enable use of trigonometric ratios
 
 
 ## Code Description
