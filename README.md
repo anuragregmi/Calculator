@@ -20,6 +20,7 @@ Anurag’s
 ### User Interface
   हिसाब यन्त्र is very user friendly and intuitive and uses a GUI interface implemented in JAVA to communicate with user.<br/>
     ![A look at हिसाब यन्त्र](firsr_look.png)
+    
     Fig. हिसाब यन्त्र
 
 ### Features
