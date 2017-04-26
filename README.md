@@ -75,4 +75,4 @@ Here `text` is an argument of type text which you want to put in footer.
 ```
   calc.setFooterText("This is footer text");  // sets footer text
 ```
-*Use this method before packing
+  <i> Use this method before packing </i>
