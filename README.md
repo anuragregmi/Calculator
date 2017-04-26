@@ -18,9 +18,9 @@ Anurag’s
   If you prefer a jar file then click <a href="https://github.com/anurag1234565/Calculator/raw/master/hisab_yantra.jar">Download</a>.
 
 ### User Interface
-हिसाब यन्त्र is very user friendly and intuitive and uses a GUI interface implemented in JAVA to communicate with user.<br/>
-  ![A look at हिसाब यन्त्र](firsr_look.png)
-Fig. हिसाब यन्त्र
+  हिसाब यन्त्र is very user friendly and intuitive and uses a GUI interface implemented in JAVA to communicate with user.<br/>
+    ![A look at हिसाब यन्त्र](firsr_look.png)
+  Fig. हिसाब यन्त्र
 
 ### Features
 The features of  हिसाब यन्त्र are:
