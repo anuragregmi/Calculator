@@ -54,6 +54,7 @@ The future goals for this project are:
  For further documentation view <a href="https://anurag1234565.github.io/Calculator/doc/">Javadoc</a>.
  
 ### Usage
+##### Create and Display 
 You can create a calculator by making the object of Calculator
 ```java
   Calculator calc = new  Calculator();  // initializes calculator
@@ -68,4 +69,10 @@ Then to make calculator visible call ` show() `
 ```java
   calc.show();  // display the calculator
 ```
- 
+##### Add Footer Text [Optional]
+If you want to add some text in the footer you can use `setFooterText(text)`
+Here `text` is an argument of type text which you want to put in footer.
+```
+  calc.setFooterText("This is footer text");  // sets footer text
+```
+*Use this method before packing
