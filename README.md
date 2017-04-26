@@ -60,11 +60,11 @@ You can create a calculator by making the object of Calculator
 ```
 It initializes the calculator and its components.
 
-Now to pack those components call ```java pack() ```
+Now to pack those components call ` pack() `
 ```java
   calc.pack();  // packs components to the frame
 ```
-Then to make calculator visible call ```java show() ```
+Then to make calculator visible call ` show() `
 ```java
   calc.show();  // display the calculator
 ```
